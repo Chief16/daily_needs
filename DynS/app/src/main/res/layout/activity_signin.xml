@@ -1,0 +1,87 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignInActivity">
+
+
+    <EditText
+        android:id="@+id/InPhn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone"
+        android:layout_marginTop="320dp"
+        android:ems="12"
+        android:textColor="@color/ColorWhite"
+        android:hint="    Mob no."
+        android:inputType="phone"
+        android:textColorHint="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/InPass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:ems="12"
+        android:textColor="@color/ColorWhite"
+        android:hint="   Password"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/just_another_hand"
+        android:text="DailyNeeds"
+        android:textSize="90sp" />
+
+    <Button
+        android:id="@+id/InBtn"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorPrimary"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/RstPassIN"
+        android:layout_width="172dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="450dp"
+        android:textColor="#ffffff"
+        android:text="Forgot Password ?" />
+
+    <TextView
+        android:id="@+id/NotRegIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:text="Not Registered? Sign Up here"
+        />
+
+    <TextView
+        android:id="@+id/Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:textColor="@color/ColorWhite"
+        android:layout_centerHorizontal="true"
+        android:text="Skip>>>" />
+
+
+</RelativeLayout>

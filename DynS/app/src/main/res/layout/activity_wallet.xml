@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#d3d3d3"
+    tools:context=".Home.Wallet">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+            android:id="@+id/WalletBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/txtWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:text="My Wallet"
+            android:textColor="#ffffff"
+            android:textSize="23dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="2400dp"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/ColorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="19dp"
+            android:background="@color/ColorWhite"
+            android:text="Wallet Summary"
+            android:textColor="#000000"
+            android:textSize="22dp"></TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ic_wallet" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/ColorWhite"
+        android:text="Current Balance is "
+        android:textColor="#262626"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/WalletMny"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Add Money"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="2400dp"
+        android:layout_height="400dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/ColorWhite">
+
+        <TextView
+            android:id="@+id/WalletTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"
+            android:text="Recent Transactions"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

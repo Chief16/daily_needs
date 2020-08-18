@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950697982317",
+    "firebase_url": "https://dailyn-c2d2e.firebaseio.com",
+    "project_id": "dailyn-c2d2e",
+    "storage_bucket": "dailyn-c2d2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950697982317:android:182cf4fea9c25d13f0c264",
+        "android_client_info": {
+          "package_name": "com.example.dailynd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950697982317-qtl0t1lkqc4qglq7f7fmrf96orgb5b5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dailynd",
+            "certificate_hash": "50f259bd9356de5782d103430df4488a7973fbd3"
+          }
+        },
+        {
+          "client_id": "950697982317-e7qk68rul2e3k8r7af5ollqvf6jb2quf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9OR0cWDIVTwNFqkEgASeufdwbMSpQn94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950697982317-e7qk68rul2e3k8r7af5ollqvf6jb2quf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

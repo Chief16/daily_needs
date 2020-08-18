@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550326433643",
+    "firebase_url": "https://dyns-45013.firebaseio.com",
+    "project_id": "dyns-45013",
+    "storage_bucket": "dyns-45013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550326433643:android:4a4bca4f910ab4e1ce3e2e",
+        "android_client_info": {
+          "package_name": "com.example.dyns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550326433643-41d0lkhnos6soh9gpfnc5jel670nva0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dyns",
+            "certificate_hash": "50f259bd9356de5782d103430df4488a7973fbd3"
+          }
+        },
+        {
+          "client_id": "550326433643-s5d8frktgqemog1esnpb4cvtpk56jvuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASYwcz1tjHNXXlKXWa23WQaZQptEpc0ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550326433643-s5d8frktgqemog1esnpb4cvtpk56jvuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

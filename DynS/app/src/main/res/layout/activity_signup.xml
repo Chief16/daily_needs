@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/NameUP"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_name"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:textColor="@color/ColorWhite"
+        android:hint="   Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/UpPhn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:textColor="@color/ColorWhite"
+        android:hint="   Mob No."
+        android:inputType="phone"
+        android:textColorHint="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/EmailUP"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/fui_ic_mail_white_24dp"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/ColorWhite"
+        android:hint="   Email Id"
+        android:textColorHint="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/PassUP"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:textColor="@color/ColorWhite"
+        android:hint="   Password"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/just_another_hand"
+        android:text="DailyNeeds"
+        android:textSize="90sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorPrimary"
+        android:text="Sign UP" />
+
+
+    <TextView
+        android:id="@+id/AlRegUP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:text="Already Registered? Sign In here"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:textColor="@color/ColorWhite"
+        android:layout_centerHorizontal="true"
+        android:text="Skip>>>" />
+
+
+</RelativeLayout>
